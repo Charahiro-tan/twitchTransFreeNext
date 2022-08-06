@@ -21,7 +21,7 @@ elif OS == 'Darwin':
         'twitchTransFN.py',
         '--clean',
         '--onefile',
-        '--runtime-tmpdir=.',
+        '--runtime-tmpdir=sys.argv[0]',
         '--icon=icon.ico',
         '--exclude-module=config',
         '--name=twitchTransFN.command'
